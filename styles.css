@@ -36,6 +36,69 @@ li a:hover {
     background-color: #111;
 }
 
+
+.container-a{
+    width: 80%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+}
+
+.ribbon{
+    float: left;
+    margin-bottom: 1em;
+}
+
+.container-inner {
+    font-size: 3em;
+    color: white;
+}
+
+.info{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.facts{
+    list-style-type: none;
+    text-align: center;
+    width: auto;
+    font-size: 18pt;
+    color: white;
+}
+
+h2{
+    font-size: 30pt;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+button{
+    color: white;
+    background-color: blueviolet;
+    border-radius: 1em;
+    margin: 1em;
+    padding: .5em;
+    cursor: pointer;
+    font-size: 16pt;
+}
+
+button:hover{
+    background-color: rgb(160, 91, 224);
+}
+
+.cta{
+    width: 60%;
+    font-size: 18pt;
+    margin: 0 auto;
+    display: block;
+}
+
+
 .container {
     background-color: #CCCCCC;;
     padding: 2rem;
@@ -119,74 +182,11 @@ li a:hover {
     border-radius: 5px;
   }
 
-  
-
 img {
     max-width: 100%;
     max-height: 100%;
 }
 /* josh */
-
-.container-a{
-    width: 80%;
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4em;
-}
-
-.ribbon{
-    float: left;
-    margin-bottom: 1em;
-}
-
-.container-inner {
-    font-size: 3em;
-    color: white;
-}
-
-.info{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-.facts{
-    list-style-type: none;
-    text-align: center;
-    width: auto;
-    font-size: 18pt;
-    color: white;
-}
-
-h2{
-    font-size: 30pt;
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-button{
-    color: white;
-    background-color: blueviolet;
-    border-radius: 1em;
-    margin: 1em;
-    padding: .5em;
-    cursor: pointer;
-    font-size: 16pt;
-}
-
-button:hover{
-    background-color: rgb(160, 91, 224);
-}
-
-.cta{
-    width: 60%;
-    font-size: 18pt;
-    margin: 0 auto;
-    display: block;
-}
 
 
 h1{
