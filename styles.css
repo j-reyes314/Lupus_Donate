@@ -38,21 +38,24 @@ li a:hover {
 
 
 .container-a{
-    width: 80%;
+    width: 100%;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
     margin-top: 4em;
-}
-
-.ribbon{
-    float: left;
-    margin-bottom: 1em;
+    background-color: rgb(149, 57, 235);
 }
 
 .container-inner {
+    text-align: center;
     font-size: 3em;
     color: white;
+}
+
+.ribbon{
+    display: block;
+    margin: auto;
+    margin-bottom: 1em;
 }
 
 .info{
