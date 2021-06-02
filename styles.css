@@ -60,9 +60,19 @@ li a:hover {
     width: 50%;
 }
 
-ol{
+.facts{
     list-style-type: none;
     text-align: center;
+    width: auto;
+    font-size: 18pt;
+    color: white;
+}
+
+h2{
+    font-size: 30pt;
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
 button{
@@ -82,17 +92,14 @@ button:hover{
 .cta{
     width: 60%;
     font-size: 18pt;
-    text-align: center;
+    margin: 0 auto;
+    display: block;
 }
+
 
 h1{
     position: relative;
     top: 2em;
-    text-align: center;
-}
-
-h2{
-    position: relative;
     text-align: center;
 }
 
