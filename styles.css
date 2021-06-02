@@ -7,14 +7,15 @@ nav{
     top: 0;
     width: 100%;
     opacity: 0.8;
+    background-color: #333;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
+    /* overflow: hidden; */
+    /* background-color: #333; */
 }
 
 li {
@@ -32,6 +33,32 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
+.ribbon{
+    width: auto;
+    height: auto;
+}
+
+.conatainer{
+    width: 80%;
+    overflow: hidden;
+}
+
+.wrapper-a{
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+.wrapper-a p{
+    font-size: 5em;
+    color: white;
+    font: fantasy;
+}
+
+.wrapper-b{
+    float: right;
+}
+
 
 h1{
     position: relative;
