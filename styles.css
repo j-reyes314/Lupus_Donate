@@ -13,14 +13,14 @@ body {
 }
 
 .container {
-    background-color: blueviolet;
+    background-color: #CCCCCC;;
     padding: 2rem;
     margin: 20px;
     margin-bottom: 0;
 }
 
 .container-mid {
-    background-color: rgb(51, 133, 255);
+    background-color: rgb(181, 125, 233);
     padding: 2rem;
     margin: 20px;
     margin-top: 0;
@@ -28,7 +28,7 @@ body {
 }
 
 .container-bottom {
-    background-color: blueviolet;
+    background-color: #CCCCCC;;
     padding: 2rem;
     margin: 20px;
     margin-top: 0;
@@ -77,13 +77,13 @@ body {
     border-radius: 5px;
   }
 
-  .button { 
+  .button {  
     border: none;
     color: white;
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
-    background-color: blueviolet;
+    background-color: rgb(51, 133, 255);
     margin: 20px;
     display: block;
     margin: auto;
