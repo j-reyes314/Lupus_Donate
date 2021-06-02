@@ -5,17 +5,18 @@ body{
 nav{
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 96%;
     opacity: 0.8;
     background-color: #333;
+    margin: 20px;
+    margin-top: 0;
 }
+
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    /* overflow: hidden; */
-    /* background-color: #333; */
 }
 
 li {
@@ -39,7 +40,7 @@ li a:hover {
     height: auto;
 }
 
-.conatainer{
+.container{
     width: 80%;
     overflow: hidden;
 }
@@ -47,7 +48,6 @@ li a:hover {
 .wrapper-a{
     float: left;
     width: 50%;
-    overflow: hidden;
 }
 .wrapper-a p{
     font-size: 5em;
@@ -59,6 +59,26 @@ li a:hover {
     float: right;
 }
 
+.info{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+button{
+    color: white;
+    background-color: blueviolet;
+    border-radius: 1em;
+    margin: 1em;
+    padding: .5em;
+    cursor: pointer;
+    font-size: 16pt;
+}
+
+button:hover{
+    background-color: rgb(160, 91, 224);
+}
 
 h1{
     position: relative;
