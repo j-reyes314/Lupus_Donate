@@ -5,6 +5,7 @@
 body {
     margin: 0;
     background-color: rgb(181, 125, 233);
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,“Segoe UI”,Roboto,“Helvetica Neue”,Arial,sans-serif
 }
 
 .container {
@@ -91,4 +92,150 @@ body {
 img {
     max-width: 100%;
     max-height: 100%;
+}
+/* josh */
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 96%;
+    opacity: 0.8;
+    background-color: #333;
+    margin: 20px;
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.container{
+    width: 80%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+}
+
+.ribbon{
+    float: left;
+    margin-bottom: 1em;
+}
+
+.container-inner {
+    font-size: 3em;
+    color: white;
+}
+
+.info{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.facts{
+    list-style-type: none;
+    text-align: center;
+    width: auto;
+    font-size: 18pt;
+    color: white;
+}
+
+h2{
+    font-size: 30pt;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+button{
+    color: white;
+    background-color: blueviolet;
+    border-radius: 1em;
+    margin: 1em;
+    padding: .5em;
+    cursor: pointer;
+    font-size: 16pt;
+}
+
+button:hover{
+    background-color: rgb(160, 91, 224);
+}
+
+.cta{
+    width: 60%;
+    font-size: 18pt;
+    margin: 0 auto;
+    display: block;
+}
+
+
+h1{
+    position: relative;
+    top: 2em;
+    text-align: center;
+}
+
+.contact-us{
+    top: 5em;
+    position: relative;
+    margin: 0;
+}
+
+label{
+    display: block;  
+    font-size: 1.2em;
+    text-align: left;
+}
+
+input, textarea{
+    outline: 0;
+    border-width: 0 0 2px;
+    width: 70%;
+    padding: .8em;
+    margin-bottom: 2em;
+    border-color: blueviolet;
+    background-color: rgb(236, 236, 236);
+}
+
+input[type="submit"]{
+    color: white;
+    background-color: blueviolet;
+    border-radius: 1em;
+    margin: 1em;
+    padding: .5em;
+    cursor: pointer;
+    font-size: 16pt;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(160, 91, 224);
+}
+
+.contact-us{
+    padding: 2em;
+    background-color: rgb(236, 236, 236);
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    border-radius: 25px;
 }
